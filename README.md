@@ -33,7 +33,7 @@
 2) Extract to desktop
 3) Configure your config.json
 4) If you already have memberids to DM, put them in `\data\memberids.txt` or obtain them from [Scraping](https://github.com/despk/discord-id-scraper/archive/refs/heads/main.zip)
-5) Put Proxies in `\data\proxies.txt` if you enabled proxies in config. The format is IP:Port or User:pass@IP:Port if your proxies have a user-pass authentication. 
+5) Put Proxies in `\data\proxies.txt` if you enabled proxies in config. The format is `IP:Port` or `User:pass@IP:Port` if your proxies have a user-pass authentication. 
 6) Enter your message(s) in `\data\message.txt` file.
 
 ## Building from source
