@@ -19,12 +19,9 @@
 - Supports HTTP(s), SOCKS5 and SOCKS4 proxies
 - Free & Open source
 - Emulates Discord's requests to a very high accuracy to prevent detection
-- Highly Documented
 - Multi-threaded using Light-weight Goroutines supporting thousands of concurrent accounts
 - Can Receieve messages during mass DM
 - Can ping user
-- Can send embeds using 3rd Party APIs
-- Supports multiple messages
 ### Preview
 <p align="center">
   <img src="https://i.imgur.com/UEBX5zb.png">
