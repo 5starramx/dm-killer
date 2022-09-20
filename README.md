@@ -24,7 +24,7 @@
 - Can ping user
 ### Preview
 <p align="center">
-  <img src="https://i.imgur.com/UEBX5zb.png">
+  <img src="https://i.imgur.com/IJc65Dn.png">
 </p>
 
  
