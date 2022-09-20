@@ -1,0 +1,10 @@
+{
+    "proxy": "proxy here IP:Port or User:pass@IP:Port",
+    "timeout_min": 60,
+    "timeout_max": 120,
+    "captcha_type": "capmonster/anticaptcha/2captcha",
+    "capmonster_apikey": "",
+    "anticaptcha_apikey": "",
+    "twocaptcha_apikey": "",
+    "server_id": "server id for the tool to check if the token is on the server before sending a message"
+}

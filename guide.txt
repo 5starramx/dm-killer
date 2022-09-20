@@ -1,0 +1,23 @@
+Install Python 3.9 from the website (NOT WINDOWS STORE)
+
+Open cmd.exe and run python dm.py
+
+-----------------------------------------------------------
+
+Files:
+
+config.json (Settings)
+data/tokens.txt (Put your tokens in "token" only format)
+data/memberids.txt (Put Scraped IDS)
+data/message.txt (Insert your message)
+
+Config:
+
+- proxy: (username:password@ip:port) OR (ip:port)
+- timeout_min: (min timeout between each dms)
+- timeout_max: (max timeout between each dms)
+- captcha_type: (anticaptcha or capmonster or 2captcha)
+- capmonster_apikey: "capmonster apikey"
+- anticaptcha_apikey: "anticaptcha apikey"
+- twocaptcha_apikey: "2captcha apikey"
+- server_id: "targetted server id"
