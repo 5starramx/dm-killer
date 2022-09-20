@@ -47,7 +47,7 @@ You can register an account there, load some balance and copy your Captcha API K
 ### Example configuration
 ```json
 {
-    "proxy": "yes or no",
+    "proxy": "proxy here IP:Port or User:pass@IP:Port",
     "timeout_min": 60,
     "timeout_max": 120,
     "captcha_type": "capmonster/anticaptcha/2captcha",
